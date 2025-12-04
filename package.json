@@ -1,9 +1,18 @@
 {
   "name": "@dfukagaw28/random-emoji",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfukagaw28/bun-random-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dfukagaw28/bun-random-emoji/issues"
+  },
+  "homepage": "https://github.com/dfukagaw28/bun-random-emoji#readme",
+  "license": "MIT",
   "files": ["dist"],
   "scripts": {
     "build": "bun build index.ts --outdir dist --format esm && bun x tsc --declaration --emitDeclarationOnly --outDir dist"
