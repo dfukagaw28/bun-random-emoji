@@ -93,6 +93,25 @@ npm publish --access=public --auth-type=legacy
 
 再び 2FA が必要。
 
+### 動作確認
+
+```bash
+mkdir test-random-emoji
+
+cd test-random-emoji
+
+bun init
+
+bun add @dfukagaw28/random-emoji
+
+bun -e "import { getEmoji } from '@dfukagaw28/random-emoji'; console.log(getEm
+oji());"
+😎
+
+bun -e "import { getEmoji } from '@dfukagaw28/random-emoji'; console.log(getEmoji());"
+🦄
+```
+
 ### その他
 
 @dfukagaw28/random-emoji
